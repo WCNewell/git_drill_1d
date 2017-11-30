@@ -1,0 +1,15 @@
+  887  mkdir git-drill-1
+  888  cd git-drill-1
+  889  git init
+  890  touch readme.md index.html style.css
+  891  git remote add origin https://github.com/WCNewell/git_drill_1d.git
+  892  git add index.html
+  893  git status
+  894  git commit -m "initial commit"
+  895  open readme.md
+  896  touch app.js
+  897  curl -o happycat.gif https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy-downsized.gif
+  898  git add .
+  899  git commit -m "added gif"
+  900  git log
+  901  git push -u origin master
